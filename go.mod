@@ -1,6 +1,6 @@
 module github.com/hongweikkx/qzy-themes
 
-go 1.23.1
+go 1.22.7
 
 require github.com/hongweikkx/qzy-admin v0.0.0-20241025104958-0111de815f49
 
