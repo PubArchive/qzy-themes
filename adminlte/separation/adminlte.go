@@ -3,12 +3,12 @@ package separation
 import (
 	"os"
 
-	"github.com/GoAdminGroup/themes/adminlte/resource"
-	"github.com/GoAdminGroup/themes/common"
 	"github.com/hongweikkx/qzy-admin/modules/config"
 	adminTemplate "github.com/hongweikkx/qzy-admin/template"
 	"github.com/hongweikkx/qzy-admin/template/components"
 	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/hongweikkx/qzy-themes/adminlte/resource"
+	"github.com/hongweikkx/qzy-themes/common"
 )
 
 type Theme struct {
