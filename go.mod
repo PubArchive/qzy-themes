@@ -1,14 +1,19 @@
-module github.com/GoAdminGroup/themes
+module qzy-themes
 
-go 1.21.5
-
-require github.com/GoAdminGroup/go-admin v1.2.26
+go 1.23.1
 
 require (
+	github.com/GoAdminGroup/themes v0.0.48
+	github.com/hongweikkx/qzy-admin v0.0.0-20241025104958-0111de815f49
+)
+
+require (
+	github.com/GoAdminGroup/go-admin v1.2.26 // indirect
 	github.com/GoAdminGroup/html v0.0.1 // indirect
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
